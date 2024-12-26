@@ -206,6 +206,6 @@ if __name__ == "__main__":
         with open(f"tripadvisor_{que}_{location_name}.json", 'w', encoding='utf-8') as file:
             json.dump(main_data, file, ensure_ascii=False, indent=4)
         print(
-            f"Extracted {len(main_data)} {que}. Saved as 'tripadvisor_{que}_{location_name}.csv' and 'tripadvisor_{que}_{location_name}.xlsx'.")
+            f"Extracted {len(main_data)} {que}. Saved as 'tripadvisor_{que}_{location_name}.csv', 'tripadvisor_{que}_{location_name}.xlsx' and tripadvisor_{que}_{location_name}.json")
     else:
         print("No data extracted.")
