@@ -128,8 +128,8 @@ if __name__ == "__main__":
     print("If you're scraping hotels: Use ACCOMMODATION.")
     print("If you're scraping restaurants: Use EATERY.")
     print("If you're scraping tourist spots: Use ATTRACTION.")
-    print("If you're planning a trip and need flights: Use FLIGHT.")
-    print("If you're looking for rentals: Use VACATION_RENTAL.")
+    # print("If you're planning a trip and need flights: Use FLIGHT.")
+    # print("If you're looking for rentals: Use VACATION_RENTAL.")
     print("----------\n")
 
     lo_cat = {
